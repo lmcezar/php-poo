@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<form action="exibir_veiculo.php" method="post">
+  <p>
+  <label>Nome: </label> </br>
+  <input type="text" name="nome">
+  </p>
+  <p>
+  <label>Modelo: </label> </br>
+  <input type="text" name="modelo">
+  </p>
+  <p>
+  <label>Marca: </label> </br>
+  <input type="text" name="marca">
+  </p>
+
+  <p>
+    <label for="tipo">Tipo</label>
+    <select name="tipo" id="tipo">
+      <option value="1">Moto</option>
+      <option value="2">Carro</option>
+    </select>
+  </p>
+
+  <input type="submit" value="Enviar">
+
+</form>
+
+</body>
+</html>
